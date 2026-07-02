@@ -109,7 +109,7 @@ diff --git a/smali/com/oplus/ocs/camera/consumer/apsAdapter/ALog.smali b/smali/c
 index 8045fc6..aa3c7f2 100644
 --- a/smali/com/oplus/ocs/camera/consumer/apsAdapter/ALog.smali
 +++ b/smali/com/oplus/ocs/camera/consumer/apsAdapter/ALog.smali
-@@ -6,11 +6,11 @@
+@@ -6,9 +6,9 @@
  # static fields
  .field private static final TAG:Ljava/lang/String; = "ALog"
  
@@ -118,9 +118,6 @@ index 8045fc6..aa3c7f2 100644
  
 -.field private static volatile sJNILoadFailed:Z = false
 +.field private static volatile sJNILoadFailed:Z
- 
--.field private static volatile sLogEncryptEnable:Z = false
-+.field private static volatile sLogEncryptEnable:Z
  
  
  # direct methods

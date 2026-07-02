@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from Oneplus Ace 5 (ColorOS 16 PKG110_16.0.7.200(EX01))
+## are from Oneplus Nord 5 (OxygenOS 16 CPH2709_16.0.5.1002(EX01))
 
 # Camera
 my_product/app/OplusCamera/OplusCamera.apk:system_ext/priv-app/OplusCamera/OplusCamera.apk;OVERRIDES=Camera2,GoogleCameraGo
@@ -179,6 +179,3 @@ my_product/etc/camera/engineer_camera_config.json:product/etc/camera/engineer_ca
 system_ext/lib64/liboplushwui_jni.so
 
 system_ext/lib64/libcsextimpl.so
-
-odm/etc/camera/omoji/assets/sdk_assets/ai_face_processor_e51.bundle
-odm/etc/camera/omoji/assets/sdk_assets/controller_cpp.bundle
