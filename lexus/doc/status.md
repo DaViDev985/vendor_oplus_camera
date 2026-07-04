@@ -24,12 +24,12 @@
 - [x] HIS (OIS+EIS) for main camera
 - [x] Ultra Steady
 - [x] Can record video and save to file
-## Master (not tested)
+## Pro Mode
 - [x] Preview renders
-- [ ] Lens switch and zoom works
-- [ ] Adjusting params takes effect
-- [ ] Can take photo in JPG format and save to file
-- [ ] Can take photo in RAW format and save to file
+- [x] Lens switch and zoom works
+- [x] Adjusting params takes effect
+- [x] Can take photo in JPG format and save to file
+- [x] Can take photo in RAW format and save to file
 ## Portrait (for now works only in front cam, crashes app when switching to 1x on rear cam. i suspect a leftover from giuliac)
 - [x] Preview renders
 - [ ] Lens switch works
