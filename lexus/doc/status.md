@@ -1,69 +1,57 @@
-# Status
+# Status (keep in mind i haven't tested most stuff yet!)
 ## General
 - [x] System boots
 - [x] Camera app starts
 - [x] Camera app can get privileged video stream
-- [x] Filters take effect
+- [ ] Filters take effect (not tested)
 - [x] Flash works
-- [x] Gallery works
+- [ ] Gallery works (clicking doesnt do anything, the smali patch for gallery app needs to be revised)
 - [x] SeLinux enforcing
 ## Photo
 - [x] Preview renders
-- [x] Automatic lens switch works
 - [x] Preview lens switch transition renders
 - [x] Manual lens switch and zoom works for back cameras
 - [x] Manual zoom works for front camera
 - [x] OIS when using main camera
-- [x] HIS (OIS+EIS) when using telephoto camera
-- [x] Action mode (60fps preview) works
+- [ ] Action mode (60fps preview) works (i dont think nord 5 has this)
 - [x] Can take photo without crash
 ## Video
 - [x] Preview renders
 - [x] Lens switch and zoom works
-- [x] All formats with SDR color space
-- [ ] HDR Dolby Vision
+- [ ] All formats with SDR color space (not tested)
+- [ ] HDR Dolby Vision (do we have this?)
 - [x] EIS for ultra wide camera
 - [x] HIS (OIS+EIS) for main camera
-- [x] HIS (OIS+EIS) for telephoto camera
 - [x] Ultra Steady
 - [x] Can record video and save to file
-## Master
+## Master (not tested)
 - [x] Preview renders
-- [x] Lens switch and zoom works
-- [x] Adjusting params takes effect
-- [x] Can take photo in JPG format and save to file
-- [x] Can take photo in RAW format and save to file
-## Portrait
+- [ ] Lens switch and zoom works
+- [ ] Adjusting params takes effect
+- [ ] Can take photo in JPG format and save to file
+- [ ] Can take photo in RAW format and save to file
+## Portrait (for now works only in front cam, crashes app when switching to 1x on rear cam. i suspect a leftover from giuliac)
 - [x] Preview renders
-- [x] Lens switch works
+- [ ] Lens switch works
 - [x] Effects like blur works
-- [x] Hasselblad Pop-Up window shows
-- [ ] Can take photo and save to file
+- [x] Can take photo and save to file
 ## Slow Motion
-- [x] Preview renders
+- [ ] Preview renders
 - [x] All formats (720p/1080p 240fps/480fps) works
 - [x] Can record video and save to file
 - [x] Manual lens switch works
-## Dual Video
-- [x] Preview renders
-- [x] All layouts work
-- [x] Back camera zoom works
-- [x] Can record video and save to file
-## Movie
-- [x] Preview renders
-- [x] Ultra^2 Steady works
-- [x] Lens switch works
-- [x] EIS for ultra wide camera
-- [x] HIS (OIS+EIS) for main camera
-- [x] HIS (OIS+EIS) for telephoto camera
-- [x] Adjusting params takes effect
-- [x] Can record video and save to file
-## XPAN
-- [x] Hasselblad UI renders
-- [x] Hasselblad Pop-Up window shows
-- [x] Preview renders
-- [x] Manual lens switch works
-- [x] Filters take effect
-- [x] Can take photo and save
+## Dual Video (tf is this? not tested)
+- [ ] Preview renders
+- [ ] All layouts work
+- [ ] Back camera zoom works
+- [ ] Can record video and save to file
+## Movie (not tested)
+- [ ] Preview renders
+- [ ] Ultra^2 Steady works
+- [ ] Lens switch works
+- [ ] EIS for ultra wide camera
+- [ ] HIS (OIS+EIS) for main camera
+- [ ] Adjusting params takes effect
+- [ ] Can record video and save to file
 ## Other Modes
 - [ ] Untested or broken
