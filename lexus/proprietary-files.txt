@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from Oneplus Nord 5 (OxygenOS 16 CPH2709_16.0.5.1002(EX01))
+## are from Oneplus Nord 5 (OxygenOS 16 CPH2709_16.0.5.1201(EX01))
 
 # Camera
 my_product/app/OplusCamera/OplusCamera.apk:system_ext/priv-app/OplusCamera/OplusCamera.apk;OVERRIDES=Camera2,GoogleCameraGo
